@@ -44,6 +44,13 @@ body {
 .button {
   border-radius: 6px;
   outline: none;
+  cursor: pointer;
+}
+
+.title {
+  font-family: 'Loto-Bold', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
 }
 
 .navbar {
@@ -124,6 +131,14 @@ body {
   cursor: pointer;
 }
 
+.navbar-nav-contacts__button:hover {
+  background-color: #ef6371;
+}
+
+.navbar-nav-contacts__button:active {
+  background-color: #f27a86;
+}
+
 .navbar-main {
   padding-top: 180px;
   display: flex;
@@ -141,6 +156,14 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   border: 1px solid #ED4C5C;
+}
+
+.navbar-main__button:hover {
+  background-color: #e6e6e6;
+}
+
+.navbar-main__button:active {
+  background-color: #cccccc;
 }
 
 .navbar__title {
@@ -183,16 +206,79 @@ body {
 
 @media (max-width: 480px) {
   .navbar-nav__text-logo {
-    font-size: 14px;
+    font-size: 15px;
   }
   .navbar__title {
-    font-size: 30px;
+    font-size: 35px;
   }
   .navbar__subtitle {
     font-size: 15px;
   }
   .navbar-main {
     width: 300px;
+  }
+}
+
+.video-container {
+  max-width: 1025px;
+}
+
+.video-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+.video__text {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 45%;
+}
+
+.video__title {
+  font-family: 'Loto-Bold', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.video__main-text {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+
+.video__addition {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Loto-Regular', sans-serif;
+  font-weight: 400;
+  color: #ED4C5C;
+}
+
+@media (max-width: 1200px) {
+  .video-block {
+    flex-direction: column;
+  }
+  .video__text {
+    max-width: 700px;
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .video__text {
+    margin-bottom: 50px;
+  }
+  .video__title {
+    font-size: 25px;
+  }
+  .video__main-image {
+    max-width: 80%;
+    margin-left: 25px;
   }
 }
 /*# sourceMappingURL=style.css.map */

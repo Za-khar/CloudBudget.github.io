@@ -1,1 +1,198 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: 'Loto-Regular';
+  src: url("../fonts/Loto-Regular.eot");
+  src: url("../fonts/Loto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Loto-Regular.woff") format("woff"), url("../fonts/Loto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Loto-Bold';
+  src: url("../Loto-Bold.eot");
+  src: url("../Loto-Bold.eot?#iefix") format("embedded-opentype"), url("../Loto-Bold.woff") format("woff"), url("../fonts/Loto-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Loto-Regular', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 1100px;
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 760px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 580px;
+    width: 85%;
+  }
+}
+
+.button {
+  border-radius: 6px;
+  outline: none;
+}
+
+.navbar {
+  background: url("../img/navbar/navbar-bg-image.jpg") no-repeat center right;
+  background-size: contain 100%;
+  color: #FFFFFF;
+}
+
+.navbar-overlay {
+  background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%) no-repeat;
+  background-size: cover;
+  padding-bottom: 190px;
+  padding-top: 50px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-nav__logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav__text-logo {
+  margin-left: 7px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Loto-Bold', sans-serif;
+  font-weight: 600;
+}
+
+.navbar-nav__info {
+  display: flex;
+  justify-content: space-between;
+  width: 445px;
+  align-items: center;
+}
+
+.navbar-nav__section {
+  text-decoration: none;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.navbar-nav__section:hover {
+  font-family: 'Loto-Bold', sans-serif;
+  font-weight: 600;
+}
+
+.navbar-nav-contacts {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav-contacts__language {
+  display: flex;
+  margin-right: 20px;
+  width: 96px;
+  height: 32px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.navbar-nav-contacts__button {
+  color: #FFFFFF;
+  font-family: 'Loto-Regular', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 11px 28px;
+  border: 1px solid #FFFFFF;
+  text-transform: uppercase;
+  background: transparent;
+  cursor: pointer;
+}
+
+.navbar-main {
+  padding-top: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 560px;
+  margin: auto;
+}
+
+.navbar-main__button {
+  color: #ED4C5C;
+  padding: 17px 52px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #ED4C5C;
+}
+
+.navbar__title {
+  font-size: 72px;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: 'Loto-Bold', sans-serif;
+  font-weight: 600;
+  margin-bottom: 39px;
+}
+
+.navbar__subtitle {
+  font-family: 'Loto-Regular', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1200px) {
+  .navbar-nav__info {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-nav-contacts__language {
+    display: none;
+  }
+  .navbar__title {
+    font-size: 45px;
+  }
+  .navbar__subtitle {
+    font-size: 20px;
+  }
+  .navbar-main {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-nav__text-logo {
+    font-size: 14px;
+  }
+  .navbar__title {
+    font-size: 30px;
+  }
+  .navbar__subtitle {
+    font-size: 15px;
+  }
+  .navbar-main {
+    width: 300px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

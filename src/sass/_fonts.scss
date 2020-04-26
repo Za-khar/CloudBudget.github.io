@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Loto-Regular';
+    src: url('../fonts/Loto-Regular.eot');
+    src: url('../fonts/Loto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Loto-Regular.woff') format('woff'),
+    url('../fonts/Loto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Loto-Bold';
+    src: url('../Loto-Bold.eot');
+    src: url('../Loto-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../Loto-Bold.woff') format('woff'),
+    url('../fonts/Loto-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@mixin reg {
+    font-family: 'Loto-Regular', sans-serif;
+    font-weight: 400;
+}
+@mixin bold {
+    font-family: 'Loto-Bold', sans-serif;
+    font-weight: 600;
+}

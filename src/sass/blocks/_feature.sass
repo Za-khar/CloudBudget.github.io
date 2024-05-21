@@ -1,0 +1,37 @@
+@media (max-width: 768px)
+  .features, .tech-cards, .footer-content
+    flex-direction: column
+
+  .feature-card, .tech-card, .footer-content > div
+    flex: 1 1 100%
+
+  .app-links img
+    width: 30px
+
+.feature
+  background-color: #FAFAFA
+
+.features, .tech-cards
+  display: flex
+  justify-content: space-around
+  flex-wrap: wrap
+
+.feature-card
+  background: #fff
+  border: 1px solid #ddd
+  border-radius: 8px
+  padding: 1rem
+  margin: 1rem
+  flex: 1 1 calc(33% - 2rem)
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+
+.tech-card
+  background: #fff
+  border-radius: 8px
+  padding: 1rem
+  margin: 1rem
+  flex: 1 1 calc(25% - 2rem)
+
+.feature-card img, .tech-card img
+  max-width: 100%
+  border-radius: 8px

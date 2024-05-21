@@ -1,25 +1,23 @@
 @font-face {
-  font-family: 'Loto-Regular';
+  font-family: "Loto-Regular";
   src: url("../fonts/Loto-Regular.eot");
   src: url("../fonts/Loto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Loto-Regular.woff") format("woff"), url("../fonts/Loto-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
-  font-family: 'Loto-Bold';
+  font-family: "Loto-Bold";
   src: url("../Loto-Bold.eot");
   src: url("../Loto-Bold.eot?#iefix") format("embedded-opentype"), url("../Loto-Bold.woff") format("woff"), url("../fonts/Loto-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Loto-Regular', sans-serif;
+  font-family: "Loto-Regular", sans-serif;
   font-weight: 400;
 }
 
@@ -33,14 +31,12 @@ body {
     width: 760px;
   }
 }
-
 @media (max-width: 768px) {
   .container {
     max-width: 580px;
     width: 85%;
   }
 }
-
 .button {
   border-radius: 6px;
   outline: none;
@@ -48,9 +44,19 @@ body {
 }
 
 .title {
-  font-family: 'Loto-Bold', sans-serif;
+  font-family: "Loto-Bold", sans-serif;
   font-weight: 600;
   font-size: 36px;
+}
+
+.feature, .technology, .focus, .contact, footer {
+  padding: 2rem 5%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
 }
 
 .navbar {
@@ -58,57 +64,48 @@ body {
   background-size: contain 100%;
   color: #FFFFFF;
 }
-
 .navbar-overlay {
   background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%) no-repeat;
   background-size: cover;
   padding-bottom: 190px;
   padding-top: 50px;
 }
-
 .navbar-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .navbar-nav__logo {
   display: flex;
   align-items: center;
 }
-
 .navbar-nav__text-logo {
   margin-left: 7px;
   text-transform: uppercase;
   font-size: 18px;
-  font-family: 'Loto-Bold', sans-serif;
+  font-family: "Loto-Bold", sans-serif;
   font-weight: 600;
 }
-
 .navbar-nav__info {
   display: flex;
   justify-content: space-between;
   width: 445px;
   align-items: center;
 }
-
 .navbar-nav__section {
   text-decoration: none;
   color: #FFFFFF;
   text-transform: uppercase;
   font-size: 14px;
 }
-
 .navbar-nav__section:hover {
-  font-family: 'Loto-Bold', sans-serif;
+  font-family: "Loto-Bold", sans-serif;
   font-weight: 600;
 }
-
 .navbar-nav-contacts {
   display: flex;
   align-items: center;
 }
-
 .navbar-nav-contacts__language {
   display: flex;
   margin-right: 20px;
@@ -118,10 +115,9 @@ body {
   align-items: center;
   font-size: 14px;
 }
-
 .navbar-nav-contacts__button {
   color: #FFFFFF;
-  font-family: 'Loto-Regular', sans-serif;
+  font-family: "Loto-Regular", sans-serif;
   font-weight: 400;
   font-size: 14px;
   padding: 11px 28px;
@@ -130,15 +126,12 @@ body {
   background: transparent;
   cursor: pointer;
 }
-
 .navbar-nav-contacts__button:hover {
   background-color: #ef6371;
 }
-
 .navbar-nav-contacts__button:active {
   background-color: #f27a86;
 }
-
 .navbar-main {
   padding-top: 180px;
   display: flex;
@@ -148,7 +141,6 @@ body {
   width: 560px;
   margin: auto;
 }
-
 .navbar-main__button {
   color: #ED4C5C;
   padding: 17px 52px;
@@ -157,26 +149,22 @@ body {
   text-transform: uppercase;
   border: 1px solid #ED4C5C;
 }
-
 .navbar-main__button:hover {
   background-color: #e6e6e6;
 }
-
 .navbar-main__button:active {
   background-color: #cccccc;
 }
-
 .navbar__title {
   font-size: 72px;
   margin: 0;
   text-transform: uppercase;
-  font-family: 'Loto-Bold', sans-serif;
+  font-family: "Loto-Bold", sans-serif;
   font-weight: 600;
   margin-bottom: 39px;
 }
-
 .navbar__subtitle {
-  font-family: 'Loto-Regular', sans-serif;
+  font-family: "Loto-Regular", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 150%;
@@ -188,7 +176,6 @@ body {
     display: none;
   }
 }
-
 @media (max-width: 768px) {
   .navbar-nav-contacts__language {
     display: none;
@@ -203,7 +190,6 @@ body {
     max-width: 400px;
   }
 }
-
 @media (max-width: 480px) {
   .navbar-nav__text-logo {
     font-size: 15px;
@@ -218,11 +204,9 @@ body {
     width: 300px;
   }
 }
-
 .video-container {
   max-width: 1025px;
 }
-
 .video-block {
   display: flex;
   justify-content: space-between;
@@ -230,31 +214,27 @@ body {
   padding-top: 95px;
   padding-bottom: 95px;
 }
-
 .video__text {
   display: flex;
   flex-direction: column;
   flex-basis: 45%;
 }
-
 .video__title {
-  font-family: 'Loto-Bold', sans-serif;
+  font-family: "Loto-Bold", sans-serif;
   font-weight: 600;
   font-size: 36px;
   line-height: 43px;
 }
-
 .video__main-text {
   font-size: 14px;
   text-align: justify;
   line-height: 140%;
   margin-bottom: 20px;
 }
-
 .video__addition {
   text-decoration: none;
   font-size: 14px;
-  font-family: 'Loto-Regular', sans-serif;
+  font-family: "Loto-Regular", sans-serif;
   font-weight: 400;
   color: #ED4C5C;
 }
@@ -268,7 +248,6 @@ body {
     margin-bottom: 70px;
   }
 }
-
 @media (max-width: 480px) {
   .video__text {
     margin-bottom: 50px;
@@ -281,4 +260,245 @@ body {
     margin-left: 25px;
   }
 }
-/*# sourceMappingURL=style.css.map */
+.contact {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  text-align: left;
+  margin: 0 auto;
+}
+.contact h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+.contact p {
+  margin-bottom: 1.5rem;
+  color: #555;
+  font-size: 1rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.input-group input {
+  flex: 1;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.contact-form input, .contact-form select {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+.contact-form button {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.contact-form button:hover {
+  background-color: #e04646;
+}
+
+@media (max-width: 768px) {
+  .features, .tech-cards, .footer-content {
+    flex-direction: column;
+  }
+  .feature-card, .tech-card, .footer-content > div {
+    flex: 1 1 100%;
+  }
+  .app-links img {
+    width: 30px;
+  }
+}
+.feature {
+  background-color: #FAFAFA;
+}
+
+.features, .tech-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  flex: 1 1 calc(33% - 2rem);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tech-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  flex: 1 1 calc(25% - 2rem);
+}
+
+.feature-card img, .tech-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.app-links img {
+  width: 40px;
+  margin: 0 10px;
+}
+
+.focus {
+  background: #e74c3c;
+  color: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+.focus img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+footer {
+  background: #f1f1f1;
+  padding: 2rem 5%;
+  text-align: center;
+}
+footer .footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+footer .footer-content > div {
+  flex: 1 1 calc(25% - 2rem);
+  margin: 1rem;
+  text-align: left;
+}
+footer .footer-content > div h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+footer .footer-content > div p, footer .footer-content > div a {
+  font-size: 1rem;
+  color: #333;
+  text-decoration: none;
+}
+footer .footer-content > div p:hover, footer .footer-content > div a:hover {
+  color: #ff4d4d;
+}
+footer .footer-content > div ul {
+  list-style: none;
+  padding: 0;
+}
+footer .footer-content > div ul li {
+  margin-bottom: 0.5rem;
+}
+footer .footer-content > div ul li a {
+  color: #333;
+  text-decoration: none;
+}
+footer .footer-content > div ul li a:hover {
+  color: #ff4d4d;
+}
+footer .footer-content > div .social-links {
+  margin-top: 1rem;
+}
+footer .footer-content > div .social-links a {
+  margin: 0 0.5rem;
+}
+footer .footer-content > div .social-links a img {
+  width: 24px;
+  transition: opacity 0.3s;
+}
+footer .footer-content > div .social-links a img:hover {
+  opacity: 0.7;
+}
+footer .footer-content img {
+  max-width: 100%;
+  height: auto;
+}
+footer p {
+  font-size: 0.875rem;
+  color: #999;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+}
+.modal-content .close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.modal-content h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+}
+.modal-content form input {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+.modal-content form button {
+  background: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.modal-content form button:hover {
+  background: #ff1a1a;
+}/*# sourceMappingURL=style.css.map */
